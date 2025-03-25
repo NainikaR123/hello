@@ -1,5 +1,5 @@
 #include<stdio.h>
-int add(int n1, int n2)
+int subtract(int n1, int n2)
 {
     return n1 - n2;
 }
@@ -14,7 +14,7 @@ int main()
     printf("Enter the second number: ");
     scanf("%d", &n2);
 
-    result = add(n1, n2);
+    result = subtract(n1, n2);
 
     printf("The addition is: %d\n", result);
 
